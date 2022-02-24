@@ -1,0 +1,15 @@
+E:\UAS\UAS_OOP_1204041\obj\Debug\UAS_OOP_1204041.csproj.AssemblyReference.cache
+E:\UAS\UAS_OOP_1204041\obj\Debug\UAS_OOP_1204041.csproj.SuggestedBindingRedirects.cache
+E:\UAS\UAS_OOP_1204041\obj\Debug\UAS_OOP_1204041.Form1.resources
+E:\UAS\UAS_OOP_1204041\obj\Debug\UAS_OOP_1204041.Form2.resources
+E:\UAS\UAS_OOP_1204041\obj\Debug\UAS_OOP_1204041.Properties.Resources.resources
+E:\UAS\UAS_OOP_1204041\obj\Debug\UAS_OOP_1204041.csproj.GenerateResource.cache
+E:\UAS\UAS_OOP_1204041\obj\Debug\UAS_OOP_1204041.csproj.CoreCompileInputs.cache
+E:\UAS\UAS_OOP_1204041\bin\Debug\UAS_OOP_1204041.exe.config
+E:\UAS\UAS_OOP_1204041\bin\Debug\UAS_OOP_1204041.exe
+E:\UAS\UAS_OOP_1204041\bin\Debug\UAS_OOP_1204041.pdb
+E:\UAS\UAS_OOP_1204041\obj\Debug\UAS_OOP_1204041.exe
+E:\UAS\UAS_OOP_1204041\obj\Debug\UAS_OOP_1204041.pdb
+E:\UAS\UAS_OOP_1204041\obj\Debug\UAS_OOP_1204041.Form3.resources
+E:\UAS\UAS_OOP_1204041\obj\Debug\UAS_OOP_1204041.Form5.resources
+E:\UAS\UAS_OOP_1204041\obj\Debug\UAS_OOP_1204041.Form4.resources
