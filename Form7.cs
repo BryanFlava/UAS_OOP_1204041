@@ -7,12 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace UAS_OOP_1204041
 {
-    public partial class Form5 : Form
+    public partial class Form7 : Form
     {
-        public Form5()
+        public Form7()
         {
             InitializeComponent();
         }
@@ -20,8 +21,7 @@ namespace UAS_OOP_1204041
         private SqlCommand cmd1;
         private SqlDataAdapter DataAdapter;
         private DataSet DataSet;
-
-        private void Form5_Load(object sender, EventArgs e)
+        private void Form7_Load(object sender, EventArgs e)
         {
             string constr = @"Data Source=DESKTO-R03IJG5\BRYAN;Initial Catalog=UAS;Integrated Security=True";
             conn = new SqlConnection(constr);
@@ -29,13 +29,13 @@ namespace UAS_OOP_1204041
             cmd1 = new SqlCommand();
             cmd1.Connection = conn;
             cmd1.CommandType = CommandType.Text;
-            cmd1.CommandText = "SELECT * FROM ms_prodi_mhs";
+            cmd1.CommandText = "select * from tr_daftar_ulang";
             DataSet = new DataSet();
             DataAdapter = new SqlDataAdapter(cmd1);
-            DataAdapter.Fill(DataSet, "ms_prodi_mhs");
-            dgProdi.DataSource = DataSet;
-            dgProdi.DataMember = "ms_prodi_mhs";
-            dgProdi.Refresh();
+            DataAdapter.Fill(DataSet, "tr_daftar_ulang");
+            dgDU.DataSource = DataSet;
+            dgDU.DataMember = "tr_daftar_ulang";
+            dgDU.Refresh();
             conn.Close();
         }
     }

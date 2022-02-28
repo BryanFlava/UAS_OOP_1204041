@@ -82,6 +82,7 @@
             this.txtNPM.Name = "txtNPM";
             this.txtNPM.Size = new System.Drawing.Size(121, 20);
             this.txtNPM.TabIndex = 4;
+            this.txtNPM.TextChanged += new System.EventHandler(this.txtNPM_TextChanged);
             // 
             // txtNamaMahasiswa
             // 
@@ -106,7 +107,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 8;
-            this.button2.Text = "btnClear";
+            this.button2.Text = "Clear";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 

@@ -26,8 +26,8 @@ namespace UAS_OOP_1204041
             //exception handler
             try
             {
-                //connection untuk koneksi ke basisdata P6_1204049
-                SqlConnection myConnection = new SqlConnection(@"Data Source=DESKTOP-R03IJG5\BRYAN;Initial Catalog=UAS;Integrated Security=True");
+                //connection untuk koneksi ke basisdata 
+                SqlConnection myConnection = new SqlConnection(@"Data Source=DESKTO-R03IJG5\BRYAN;Initial Catalog=UAS;Integrated Security=True");
 
                 //membuka koneksi, menggunakan object myConnection
                 myConnection.Open();
@@ -62,7 +62,7 @@ namespace UAS_OOP_1204041
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            string myCmd = "INSERT INTO tb_mahasiswa VALUES('"
+            string myCmd = "INSERT INTO ms_mhs VALUES('"
                 + txtNPM.Text + "','"
                 + txtNamaMahasiswa.Text + "','"
                 + txtProgramStudi.Text + "')";
@@ -74,6 +74,11 @@ namespace UAS_OOP_1204041
         private void button2_Click(object sender, EventArgs e)
         {
             clear();
+        }
+
+        private void txtNPM_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

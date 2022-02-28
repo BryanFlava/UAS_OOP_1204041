@@ -50,5 +50,39 @@ namespace UAS_OOP_1204041
             f.Show();
         }
 
-      }
+        private void daftarUlangToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form f = new Form6();
+            f.MdiParent = this;
+            f.Show();
+        }
+
+        private void daftarUlangToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            Form f = new Form7();
+            f.MdiParent = this;
+            f.Show();
+        }
+
+        private void mahasiswaToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            Form f = new Form9();
+            f.MdiParent = this;
+            f.Show();
+        }
+
+        private void prodiToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            Form f = new Form8();
+            f.MdiParent = this;
+            f.Show();
+        }
+
+        private void daftarUlangToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Form f = new Form10();
+            f.MdiParent = this;
+            f.Show();
+        }
+    }
 }

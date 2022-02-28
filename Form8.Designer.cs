@@ -1,6 +1,6 @@
 ﻿namespace UAS_OOP_1204041
 {
-    partial class Form5
+    partial class Form8
     {
         /// <summary>
         /// Required designer variable.
@@ -30,6 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.dgProdi = new System.Windows.Forms.DataGridView();
+            this.btnUpdate = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgProdi)).BeginInit();
             this.SuspendLayout();
             // 
@@ -37,31 +38,41 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(80, 42);
+            this.label1.Location = new System.Drawing.Point(294, 58);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(142, 16);
+            this.label1.Size = new System.Drawing.Size(99, 16);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Data Program Studi";
+            this.label1.Text = "Update Prodi";
             // 
             // dgProdi
             // 
             this.dgProdi.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgProdi.Location = new System.Drawing.Point(36, 74);
+            this.dgProdi.Location = new System.Drawing.Point(125, 96);
             this.dgProdi.Name = "dgProdi";
-            this.dgProdi.Size = new System.Drawing.Size(240, 150);
+            this.dgProdi.Size = new System.Drawing.Size(449, 237);
             this.dgProdi.TabIndex = 1;
             // 
-            // Form5
+            // btnUpdate
+            // 
+            this.btnUpdate.Location = new System.Drawing.Point(309, 355);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(75, 23);
+            this.btnUpdate.TabIndex = 2;
+            this.btnUpdate.Text = "Update";
+            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
+            // 
+            // Form8
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Salmon;
-            this.ClientSize = new System.Drawing.Size(304, 287);
+            this.ClientSize = new System.Drawing.Size(671, 397);
+            this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.dgProdi);
             this.Controls.Add(this.label1);
-            this.Name = "Form5";
-            this.Text = "Data Program Studi";
-            this.Load += new System.EventHandler(this.Form5_Load);
+            this.Name = "Form8";
+            this.Text = "Update Prodi";
+            this.Load += new System.EventHandler(this.Form8_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgProdi)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -72,5 +83,6 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dgProdi;
+        private System.Windows.Forms.Button btnUpdate;
     }
 }

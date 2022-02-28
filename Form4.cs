@@ -59,7 +59,7 @@ namespace UAS_OOP_1204041
         }
         private void SubmitBtn_Click(object sender, EventArgs e)
         {
-            string myCmd = "INSERT INTO tb_prodi_mhs VALUES('"
+            string myCmd = "INSERT INTO ms_prodi_mhs VALUES('"
          + txtKodeProdi.Text + "','"
          + txtNamaProdi.Text + "','"
          + txtSingkatan.Text + "','"
